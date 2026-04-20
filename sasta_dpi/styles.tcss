@@ -1,0 +1,79 @@
+/* Sasta DPI Stylesheet */
+Screen {
+    background: #0D1117;
+    color: #C9D1D9;
+}
+
+Header {
+    background: #161B22;
+    color: #58A6FF;
+    dock: top;
+}
+
+Footer {
+    background: #161B22;
+    color: #8B949E;
+    dock: bottom;
+}
+
+#stats-bar {
+    dock: top;
+    height: 1;
+    background: #238636;
+    color: white;
+    content-align: center middle;
+    text-style: bold;
+}
+
+#main-grid {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 35% 65%;
+    grid-rows: 100%;
+}
+
+#config-pane {
+    width: 100%;
+    height: 100%;
+    border-right: solid #30363D;
+    padding: 1 2;
+}
+
+#right-col {
+    height: 100%;
+}
+
+#response-pane {
+    height: 60%;
+    border-bottom: solid #30363D;
+}
+
+#capture-pane {
+    height: 40%;
+}
+
+#command-input {
+    dock: bottom;
+    background: #161B22;
+    color: #58A6FF;
+    border: none;
+    padding: 0 1;
+}
+
+Input {
+    border: tall #30363D;
+    background: #0D1117;
+}
+
+Input:focus {
+    border: tall #58A6FF;
+}
+
+Select {
+    border: tall #30363D;
+    background: #0D1117;
+}
+
+Select:focus {
+    border: tall #58A6FF;
+}
